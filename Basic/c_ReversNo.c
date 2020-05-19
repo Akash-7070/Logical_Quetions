@@ -27,6 +27,6 @@ int main(void)
 		no=no/10;
 	}
 
-	printf("Factorial of eneterd number is=%d",reverse);
+	printf("Reverse of eneterd number is=%d",reverse);
 	return EXIT_SUCCESS;
 }
