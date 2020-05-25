@@ -24,7 +24,6 @@ int isempty();
 int peek();
 void display();
 
-
 int main(void)
 {
 	setvbuf(stdout,NULL,_IONBF,0);
@@ -59,22 +58,6 @@ int main(void)
 
 				case 2://pop
 					  if(isempty())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 					  {
 						  printf("Queue is Empty");
 					  }
