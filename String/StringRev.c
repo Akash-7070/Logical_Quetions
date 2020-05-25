@@ -18,28 +18,28 @@ int main()
 	printf("Enter String:\n");
 	gets(str);
 
-			m=strlen(str);
-			m=m-1;
+	m=strlen(str);
+	m=m-1;
 
-			for(i=0;i<m/2;i++)
-			{
-						if(str[m]==str[i])
-						{
-							count++;
-						}
-							m--;
-			}
+	for(i=0;i<m/2;i++)
+	{
+	      if(str[m]==str[i])
+	      {
+		 count++;
+	       }
+	   m--;
+	 }
 
-				if((m/2)==count)
-				{
-					printf("Is Palindrome");
-				}
-				else
-				{
-					printf("Not Palindrome");
-				}
+	if((m/2)==count)
+	{
+	     printf("Is Palindrome");
+	}
+        else
+        {
+	     printf("Not Palindrome");
+	}
 
-				return 0;
+   return 0;
 
-				}
+}
 
